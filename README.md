@@ -10,7 +10,8 @@ O projeto SmartFlow visa implementar um sistema de controle de acesso inteligent
 
 A solução implementada utiliza um sistema de identificação por aproximação (RFID) para controlar o acesso ao carrinho. Apenas usuários com cartões autorizados podem destravar a gaveta de suprimentos. Cada tentativa de acesso (autorizada ou não) é registrada e enviada para uma plataforma de monitoramento remota, proporcionando visibilidade em tempo real sobre quem acessou o carrinho e quando.
 
-(Diagrama em camadas desenvolvido no draw.io.) **[Adicionar arquivo do diagrama em código no repositório]**
+### Diagrama
+![Diagrama](/DiagramaCH-Edge-CodeNexus.drawio.png)
 
 ## Especificações
 
@@ -34,7 +35,8 @@ A solução implementada utiliza um sistema de identificação por aproximação
 
 ## Links Úteis
 
-Link da Simulação no Wokwi: Clique aqui
+Link da Simulação no Wokwi: [Clique aqui](https://wokwi.com/projects/428695509410562049)
+
 Link do Vídeo de Demonstração: [Clique aqui](https://youtu.be/V9G8wEmKn1c?si=8GbYCUWSue7V-Zu3)
 
 ## Integrantes da Equipe CodeNexus
