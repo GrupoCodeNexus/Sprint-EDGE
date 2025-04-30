@@ -13,6 +13,8 @@ A solução implementada utiliza um sistema de identificação por aproximação
 ### Diagrama
 ![Diagrama](/DiagramaCH-Edge-CodeNexus.drawio.png)
 
+O fluxo principal de dados ocorre quando um cartão RFID é lido pela antena. Essa informação é processada pelo ESP32 (Controle de Acesso) e enviada através do MQTT Broker para o IoT Agent MQTT. O IoT Agent converte esses dados para o formato NGSI V2 e os envia para o Orion Context Broker. O Orion então atualiza o contexto do carrinho e envia informações relevantes para o Dashboard e para o STH-Comet para armazenamento histórico no MongoDB Histórico. A Aplicação Web pode então acessar esses dados histórico
+
 ## Especificações
 
 **Hardware:**
